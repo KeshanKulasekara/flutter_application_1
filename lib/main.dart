@@ -65,6 +65,13 @@ class fineapp extends StatelessWidget{
             style: ElevatedButton.styleFrom(minimumSize: Size(200, 50)),
             ),
             ),
+            SizedBox(height: 50,),
+           Center(
+            child: ElevatedButton(onPressed: () {},
+            child: Text("View All Fines",style: TextStyle(fontSize: 20),),
+            style: ElevatedButton.styleFrom(minimumSize: Size(200, 50)),
+            ),
+            ),
           ],
         ),
       ) ,
